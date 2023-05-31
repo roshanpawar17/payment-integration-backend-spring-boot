@@ -21,7 +21,7 @@ public class MyController {
 //		System.out.print(amount);
 
 		
-		RazorpayClient client=new RazorpayClient("rzp_test_Q9o2CX6JIomOP9", "8ZqkZp8QdIeEPjUdac0O3n9Z");
+		RazorpayClient client=new RazorpayClient("key_id", "key_secret");
 		
 			  JSONObject orderRequest = new JSONObject();
 			  orderRequest.put("amount", amount*100); 
